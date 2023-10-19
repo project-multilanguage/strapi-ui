@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="w-full bg-slate-500 flex justify-between p-5 items-center shadow-lg">
+    <nav className="w-full bg-slate-500 flex justify-between p-5 items-center shadow-lg">
       <div>
         <p className="text-white font-bold text-3xl">DarkPedia</p>
       </div>
@@ -16,6 +16,6 @@ export default function NavBar() {
           <option value="Chinese">Chinese</option>
         </select>
       </div>
-    </div>
+    </nav>
   );
 }
