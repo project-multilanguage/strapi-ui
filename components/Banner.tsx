@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="relative">
+    <section className="relative">
       <div className="relative w-full h-screen flex flex-col justify-center items-center gap-[60px] z-10">
         <div className="w-[619px] text-center text-blue-900 text-[48px] font-extrabold">Pengetahuan Film dalam Genggaman Anda</div>
         <div className="w-[470px] text-center text-black text-[24px] font-extrabold">Temukan segala hal film dari A hingga Z dalam genggaman Anda</div>
@@ -27,7 +27,7 @@ export default function Banner() {
       <div className="absolute -left-5 bottom-0 ">
         <Image src={"/green-cloud.svg"} alt={"cloud"} width={300} height={300} />
       </div>
-    </div>
+    </section>
   );
 }
 
