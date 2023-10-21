@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavbarHomepage() {
   return (
-    <nav className="">
+    <nav className="bg-[#E4F2F7] top-0 sticky z-[9999]">
       <div className="px-16 flex justify-between py-3 items-center">
         <h1 className="text-xl font-bold">DarkPedia</h1>
         <ol className="text-xl flex gap-6 font-semibold">
