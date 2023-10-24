@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NavbarHomepage() {
+export default function Navbar() {
   return (
     <nav className="bg-[#E4F2F7] top-0 sticky z-[9999]">
       <div className="px-16 flex justify-between py-3 items-center">
