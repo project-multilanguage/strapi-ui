@@ -1,10 +1,10 @@
-import NavbarHomepage from "@/components/NavbarHomepage";
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 export default function page() {
   return (
     <div>
-      <NavbarHomepage />
+      <Navbar />
     </div>
   );
 }
