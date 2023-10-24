@@ -15,6 +15,12 @@ export default function NavbarHomepage() {
           <li>
             <a href="/films">Films</a>
           </li>
+          <li>
+            <select name="language" id="lang">
+              <option value="En">English</option>
+              <option value="Zh">Chinese</option>
+            </select>
+          </li>
         </ol>
       </div>
     </nav>
