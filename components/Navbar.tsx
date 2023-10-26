@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "./Dropdown";
 
 export default function Navbar() {
   return (
@@ -16,10 +17,7 @@ export default function Navbar() {
             <a href="/films">Films</a>
           </li>
           <li>
-            <select name="language" id="lang" className="p-1">
-              <option value="En">English</option>
-              <option value="Zh">Chinese</option>
-            </select>
+            <Dropdown />
           </li>
         </ol>
       </div>
